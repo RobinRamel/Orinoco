@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Orinoco</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <script defer src="js/cart.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="index.html"><img src="img/logo.png" alt="logo de l'entreprise Orinoco"></a>
+    </div>
+</header>
+
+<div class="container">
+    <h2>Mon panier : </h2><span id="totalPrice"></span><span>€</span>
+    <div class="cart" id="cart">
+
+    </div>
+
+
+    <div class="form-order" id="form-order">
+        <h2> Vos informations personnelles pour envoi de la commande </h2>
+        <form action="" method="post">
+            <div class="form-order__row form-order__row--double">
+                <div class="form-order__row__left">
+                    <label for="nom">Nom : </label>
+                    <input type="text" name="nom" id="nom" required>
+                </div>
+
+                <div class="form-order__row__right">
+                    <label for="prenom">Prénom : </label>
+                    <input type="text" name="prenom" id="prenom" required>
+                </div>
+            </div>
+            <div class="form-order__row">
+                <label for="adresse">Adresse : </label>
+                <input type="text" name="adresse" id="adresse" required>
+            </div>
+            <div class="form-order__row">
+                <label for="ville">Ville : </label>
+                <input type="text" name="ville" id="ville" required>
+            </div>
+            <div class="form-order__row">
+                <label for="mail">Mail : </label>
+                <input type="email" name="mail" id="mail" required>
+            </div>
+            <div class="form-order__row">
+                <input class="button button--form" type="submit" value="Envoyer">
+            </div>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <div class="footer">
+        Footer
+    </div>
+</footer>
+</body>
+</html>

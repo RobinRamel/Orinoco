@@ -1,0 +1,25 @@
+header {
+  height: 20rem;
+  width: 100%;
+  background-color: $C-primaryLight;
+
+  @include breakpoint(lt-sm) {
+    height: 10rem;
+  }
+
+  .logo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    a {
+      display: flex;
+      justify-content: center;
+    }
+
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
+}

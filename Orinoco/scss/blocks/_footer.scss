@@ -1,0 +1,13 @@
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $C-primaryLight;
+  height: 10rem;
+  margin-top: 5rem;
+
+  .footer {
+    font-size: 2rem;
+  }
+}

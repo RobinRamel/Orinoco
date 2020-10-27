@@ -1,0 +1,42 @@
+// Couleurs
+$C-primary: #ff4d6d;
+$C-primaryLight: #f3e9f1;
+$C-secondary: #261624;
+$C-black: #212629;
+$C-grey: #606060;
+$C-greyLight: #fafafa;
+$C-orange: #d9832d;
+$C-purple: #8f5bfd;
+$C-charcoal: #36454f;
+
+
+$C-border: #e0e0e0;
+
+
+// les différents fonts utilisées
+$F-path: '../fonts/';
+$F-montserrat: 'Montserrat', sans-serif;
+$F-helvetica: Helvetica,Arial,sans-serif;
+$F-main: $F-helvetica;
+
+
+// Font weight
+$FW-thin: 100;
+$FW-light: 300;
+$FW-normal: 400;
+$FW-medium: 500;
+$FW-semibold: 600;
+$FW-bold: 700;
+$FW-extrabold: 800;
+$FW-black: 900;
+
+// Goutierre
+$G-default: 2rem;
+$G-linebreak: 1rem;
+
+// z-index
+$ZI-barbaContainer: 90;
+$ZI-header: 100;
+$ZI-menumobile: 100;
+$ZI-mainLoader: 110;
+$ZI-pageLoader: 120;
